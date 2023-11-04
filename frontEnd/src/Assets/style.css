@@ -1,0 +1,48 @@
+
+.container_card {
+    border-radius: 1.5rem;
+}
+.button {
+    color: white;
+}
+
+.table {
+    border-radius: 24px !important;
+}
+
+/********************************nav tabs*****************************/
+
+.nav-tabs .nav-link.active {
+    color: white !important;
+    background-color: blue !important;
+    border-color: blue !important;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border-radius: 20px;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-border-color: none !important;
+}
+
+.nav-pills .nav-link.active {
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-pills .nav-link {
+    border-radius: 20px !important;
+}
+.nav-fill .nav-item .nav-link {
+    width: 50% !important;
+    transition: .5s all ease;
+}
+.ms-auto {
+    margin-left: auto !important;
+}
+
+/*******************************************forms****************************/
+.form-label {
+    font-size: 1.1rem;
+    font-weight: 400;
+    /* color: white; */
+}
